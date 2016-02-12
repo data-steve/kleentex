@@ -1,0 +1,15 @@
+Package: kleentex
+Title: Helps Clean Your Text
+Version: 0.0.1
+Authors@R: c(person("Steve", "Simpson", email = "steven.troy.simpson@gmail.com", role = c("aut", "cre")))
+Maintainer: Steve Simpson <steven.troy.simpson@gmail.com>
+Description: Helps you "keep your nose clean," so to speak, with text data.
+Depends:
+    R (>= 3.2.3)
+Suggests:
+    testthat
+Date: 2016-02-12
+License: GPL-2
+LazyData: TRUE
+Roxygen: list(wrap = FALSE)
+RoxygenNote: 5.0.1
