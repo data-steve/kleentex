@@ -2,7 +2,7 @@
 #'
 #' Removes Stopwords from Vector of Words.
 #'
-#' @param xx vector of words to remove stopwords from
+#' @param xx text string / vector
 #' @export
 rm_stopwords <- function(xx) {
   xx[!grepl(

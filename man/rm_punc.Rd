@@ -7,7 +7,7 @@
 rm_punc(xx)
 }
 \arguments{
-\item{xx}{vector of text}
+\item{xx}{text string / vector}
 }
 \description{
 Remove Punction from Vector of Text.

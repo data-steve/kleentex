@@ -2,9 +2,9 @@
 #'
 #' Extract A Number from Text.
 #'
-#' @param xx text vector
+#' @param xx text string / vector
 #' @export
 get_num <- function(xx) {
-  gsub("\\s+", "", gsub('[^0-9 ]', "",xx))
+  gsub('[^0-9]', "",xx)
 }
 

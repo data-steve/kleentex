@@ -3,10 +3,10 @@
 #'
 #' Description Removes html tags, non-ascii, new-line characters, and encodes to UTF-8
 #'
-#' @param text   text string
+#' @param xx   text string / vector
 #' @export
 #'
-deep_kleen <- function(text){
+deep_kleen <- function(xx){
   trimws(
     gsub("\\s+", " ",
          gsub("<[^>]*?>"," ",

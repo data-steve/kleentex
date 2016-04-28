@@ -2,10 +2,8 @@
 #'
 #' Remove Non-Alpha Characters from Text.
 #'
-#' @param xx text vector
+#' @param xx text string / vector
 #' @export
 rm_nonalpha <- function(xx) {
-  gsub("\\s+", " "
-       , gsub('[^[:alpha:] ]', "", xx)   # remove non-alpha
-       )                                 # handle resultant extra spaces
+  rm_extra_ws( gsub('[^[:alpha:] ]', "", xx) )
 }

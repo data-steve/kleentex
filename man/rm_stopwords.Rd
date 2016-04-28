@@ -7,7 +7,7 @@
 rm_stopwords(xx)
 }
 \arguments{
-\item{xx}{vector of words to remove stopwords from}
+\item{xx}{text string / vector}
 }
 \description{
 Removes Stopwords from Vector of Words.

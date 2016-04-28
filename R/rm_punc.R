@@ -2,9 +2,9 @@
 #'
 #' Remove Punction from Vector of Text.
 #'
-#' @param xx vector of text
+#' @param xx text string / vector
 #' @export
 rm_punc <- function(xx){
-  gsub("[:punct:]","",xx)
+  rm_extra_ws(gsub("[:punct:]"," ",xx))
 }
 

@@ -7,7 +7,7 @@
 get_num_seq(xx)
 }
 \arguments{
-\item{xx}{text vector}
+\item{xx}{text string / vector}
 }
 \description{
 Extract a Sequence of Numbers from Text.

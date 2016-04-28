@@ -2,7 +2,7 @@
 #'
 #' Extract a Sequence of Numbers from Text.
 #'
-#' @param xx text vector
+#' @param xx text string / vector
 #' @export
 get_num_seq <- function(xx){
   y <- strsplit(

@@ -4,10 +4,10 @@
 \alias{deep_kleen}
 \title{Title Cleanse Text Of Common Errors}
 \usage{
-deep_kleen(text)
+deep_kleen(xx)
 }
 \arguments{
-\item{text}{text string}
+\item{xx}{text string / vector}
 }
 \description{
 Description Removes html tags, non-ascii, new-line characters, and encodes to UTF-8

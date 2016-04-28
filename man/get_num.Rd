@@ -7,7 +7,7 @@
 get_num(xx)
 }
 \arguments{
-\item{xx}{text vector}
+\item{xx}{text string / vector}
 }
 \description{
 Extract A Number from Text.

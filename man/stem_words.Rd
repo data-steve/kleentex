@@ -7,7 +7,7 @@
 stem_words(xx, language = "porter")
 }
 \arguments{
-\item{xx}{text vector}
+\item{xx}{text string / vector}
 
 \item{language}{which algorithm to use}
 }

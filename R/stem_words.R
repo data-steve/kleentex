@@ -2,7 +2,7 @@
 #'
 #' Stem a Vector of Texts.
 #'
-#' @param xx text vector
+#' @param xx text string / vector
 #' @param language which algorithm to use
 #' @export
 stem_words <- function(xx, language = "porter") {
