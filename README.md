@@ -16,6 +16,9 @@ to install the development version:
 
     if (!require("pacman")) install.packages("pacman")
     pacman::p_load_gh("data-steve/kleentex")
+    
+    # to get that super fresh feeling in your text
+    txt <- kleentex::deep_kleen(txt)
 
 Contact
 =======
