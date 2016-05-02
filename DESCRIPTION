@@ -1,6 +1,6 @@
 Package: kleentex
 Title: Helps Clean Your Text
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: c(person("Steve", "Simpson", email = "steven.troy.simpson@gmail.com", role = c("aut", "cre")))
 Maintainer: Steve Simpson <steven.troy.simpson@gmail.com>
 Description: Helps you "keep your nose clean," so to speak, with text data.
